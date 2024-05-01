@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(250, 249, 239, 0.918);
+    font-family: "Mona Sans";
+}
+/* NAVIGATION BAR */
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav_1{
+   width: 40%;
+    display: flex;
+ justify-content: space-evenly;
+    
+}
+#nav img{
+   height: 55px;
+    }
+#nav_2{
+    width:40%;
+    gap: 40px;
+    justify-content: end;
+}
+#nav_1 h4{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+#nav_1 h4:hover{
+    color: grey;
+    cursor: pointer;
+    scale: 1.8;
+}
+#nav_2 button{
+    padding: 20px 40px;
+    border: none; 
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+#nav_2 #search{
+   padding: 20px 90px;
+    background-color: #fff;
+}
+#search input{
+    padding-left: 20px;
+    border: none;
+    font-size: 20px;
+}
+#nav_2 #login{
+   
+    background-color: #fff;
+}
+#nav_2 #login:hover{
+    color:white;
+    background-color: grey;
+}
+#nav_2 #signup{
+    color: white;
+    background-color: black;
+}
+#nav_2 #signup:hover{
+    background-color: white;
+    color: black;
+}
+/* FIRST SECTION */
+
+ #over{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 18px;
+    border: none;
+    border-radius: 50px;
+    background-color: hsl(310, 87%, 82%);   
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+#over:hover{
+    background-image: linear-gradient(pink , purple);
+    
+}
+h1{
+    color: rgb(15, 25, 55);
+    font-size: 87px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 80px;
+    text-align: center;
+    margin-top: 200px;
+}
+#connect{
+  margin: 40px 0px;
+    font-size: 24px;
+    font-weight: 400;
+   line-height: 56px;
+    text-align: center;
+   letter-spacing: 1px;
+}
+#hiring{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+border: none;
+border-radius: 50px;
+padding: 25px 35px;
+font-size: 20px;
+font-weight: 500;
+color: #fff;
+background-color: black;
+justify-content: center;
+
+}
+#hiring:hover{
+background-color: grey;
+}
